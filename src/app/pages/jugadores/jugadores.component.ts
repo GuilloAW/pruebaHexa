@@ -1,8 +1,8 @@
 import { HttpClient } from '@angular/common/http';
 import { Component, EventEmitter, NgModule, OnInit, Output } from '@angular/core';
 import { FormBuilder, FormControl, FormGroup, Validators } from '@angular/forms';
-import { ApiService } from 'src/app/services/api.service';
-import { DataJugador } from "src/app/models/DataJugador";
+import { ApiService } from '../../services/api.service'
+import { DataJugador } from "../../models/DataJugador";
 
 @Component({
   selector: 'app-jugadores',
@@ -14,10 +14,10 @@ export class JugadoresComponent implements OnInit {
   jugadores:any=[];
   modelJugador?:DataJugador;
   editIdJugador?:number;
-  constructor(private apiService:ApiService,private builder:FormBuilder,private http:HttpClient) { }
+  constructor(private apiService:ApiService, private builder:FormBuilder, private http:HttpClient) { }
   ngOnInit(): void {
     this.apiService.getJugador()
-    .subscribe((data:DataJugador) =>{
+    .subscribe(data =>{
       this.jugadores=data;
     });
     this.contactForm=this.initForm();

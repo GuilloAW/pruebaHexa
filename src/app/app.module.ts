@@ -12,6 +12,7 @@ import { MenuComponent } from './components/menu/menu.component';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import { MatIconModule } from '@angular/material/icon';
 import { EjerciciosComponent } from './components/ejercicios/ejercicios.component'
+import { ApiService } from './services/api.service';
 
 
 @NgModule({
@@ -31,7 +32,8 @@ import { EjerciciosComponent } from './components/ejercicios/ejercicios.componen
     ReactiveFormsModule,
     BrowserAnimationsModule,
     MatToolbarModule,
-    MatIconModule
+    MatIconModule,
+    ApiService
   ],
   providers: [],
   bootstrap: [AppComponent]
