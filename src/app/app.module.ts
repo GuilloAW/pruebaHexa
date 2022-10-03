@@ -12,7 +12,6 @@ import { MenuComponent } from './components/menu/menu.component';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import { MatIconModule } from '@angular/material/icon';
 import { EjerciciosComponent } from './components/ejercicios/ejercicios.component'
-import { ApiService } from './services/api.service';
 
 
 @NgModule({
@@ -22,7 +21,7 @@ import { ApiService } from './services/api.service';
     TipoDePipe,
     LetraABPipe,
     MenuComponent,
-    EjerciciosComponent
+    EjerciciosComponent,
   ],
   imports: [
     BrowserModule,
@@ -32,8 +31,7 @@ import { ApiService } from './services/api.service';
     ReactiveFormsModule,
     BrowserAnimationsModule,
     MatToolbarModule,
-    MatIconModule,
-    ApiService
+    MatIconModule
   ],
   providers: [],
   bootstrap: [AppComponent]
