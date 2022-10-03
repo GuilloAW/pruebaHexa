@@ -5,7 +5,7 @@ import { Injectable } from '@angular/core';
   providedIn: 'root'
 })
 export class ApiService {
-  private url="http://localhost:3000/jugadores";
+  private url="https://github.com/GuilloAW/pruebaHexa/jugadores";
   constructor(private http: HttpClient) { }
   getJugador(){
     return this.http.get(this.url);

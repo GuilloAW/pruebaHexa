@@ -17,7 +17,7 @@ export class JugadoresComponent implements OnInit {
   constructor(private apiService:ApiService,private builder:FormBuilder,private http:HttpClient) { }
   ngOnInit(): void {
     this.apiService.getJugador()
-    .subscribe(data =>{
+    .subscribe((data:DataJugador) =>{
       this.jugadores=data;
     });
     this.contactForm=this.initForm();
