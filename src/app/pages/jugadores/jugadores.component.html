@@ -1,0 +1,65 @@
+<div class="content">
+  <h1>Jugadores</h1>
+<div class="dis-g-70-30 row-g-5">
+  <div>
+    <div *ngFor="let jugador of jugadores" class="tableJugadores">
+      <div>
+        <div class="th">Campo</div>
+          <div>
+            <div>{{jugador.codigo}}</div>
+            <div>{{jugador.nombres}}</div>
+            <div>{{jugador.camiseta}}</div>
+            <div>{{jugador.nombreEquipo}}</div>
+            <div class="{{jugador.nombreEquipo | letraAB}}">{{jugador.campeonatos}}</div>
+          </div>
+      </div>
+      <div>
+        <div class="th">Tipo</div>
+        <div>{{jugador.codigo | tipoDe:"tipo"}}</div>
+        <div>{{jugador.nombres | tipoDe:"tipo"}}</div>
+        <div>{{jugador.camiseta | tipoDe:"tipo"}}</div>
+        <div>{{jugador.nombreEquipo | tipoDe:"tipo"}}</div>
+        <div>{{jugador.campeonatos | tipoDe:"tipo"}}</div>
+      </div>
+      <div>
+        <div class="th">longitud</div>
+        <div>{{jugador.codigo | tipoDe:"large"}}</div>
+        <div>{{jugador.nombres | tipoDe:"large"}}</div>
+        <div>{{jugador.camiseta | tipoDe:"large"}}</div>
+        <div>{{jugador.nombreEquipo | tipoDe:"large"}}</div>
+        <div>{{jugador.campeonatos | tipoDe:"large"}}</div>
+      </div>
+      <div class="th">Obligatoriedad
+      </div>
+      <div class="th">Observaciones
+      </div>
+      <div>
+        <button (click)="updtJugador(jugador.id)"><span class="material-icons">edit</span></button>
+        <button (click)="delJugador(jugador.id)"><span class="material-icons">delete_forever</span></button>
+      </div>
+    </div>
+  </div>
+  <div class="formJugadores">
+    <form (ngSubmit)="onSubmit()" [formGroup]="contactForm" >
+      <label for="camiseta">camiseta</label>
+      <input type="text" id="camiseta" formControlName="camiseta">
+      <label for="campeonatos">campeonatos</label>
+      <input type="text" id="campeonatos" formControlName="campeonatos">
+      <label for="codigo">codigo</label>
+      <input type="text" id="codigo" formControlName="codigo">
+      <label for="codigoEquipo">codigoEquipo</label>
+      <input type="text" id="codigoEquipo" formControlName="codigoEquipo">
+      <label for="idEquipo">idEquipo</label>
+      <input type="text" id="idEquipo" formControlName="idEquipo">
+      <label for="idJugador">idJugador</label>
+      <input type="text" id="idJugador" formControlName="idJugador">
+      <label for="nombreEquipo">nombreEquipo</label>
+      <input type="text" id="nombreEquipo" formControlName="nombreEquipo">
+      <label for="nombres">nombres</label>
+      <input type="text" id="nombres" formControlName="nombres">
+      <div><button><span class="material-icons">person_add</span> Añadir jugador</button></div>
+    </form>
+    <div><button (click)="editJugador()"><span class="material-icons">manage_accounts</span>Actualizar Jugador</button></div>
+  </div>
+</div>
+</div>

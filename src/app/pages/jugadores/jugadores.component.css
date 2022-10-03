@@ -1,0 +1,32 @@
+
+table {
+  width: 100%;
+}
+
+th.mat-sort-header-sorted {
+  color: black;
+}
+.formJugadores *{
+display: block;
+width: 100%;
+}
+.formJugadores {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+.tableJugadores{
+  display: grid;
+  grid-template-columns: auto auto auto auto auto 5%;
+}
+.tableJugadores div{
+  margin-bottom: 0.5em;
+}
+.th{
+  background-color: #323232;
+  color: aliceblue;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 0.5em;
+}

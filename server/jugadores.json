@@ -1,0 +1,180 @@
+{
+  "jugadores": [
+    {
+      "id": 0,
+      "idJugador": 1,
+      "codigo": "LM",
+      "nombres": "Leonel Messi",
+      "camiseta": 10,
+      "campeonatos": "",
+      "idEquipo": 1,
+      "codigoEquipo": "MC",
+      "nombreEquipo": "Manchester city"
+    },
+    {
+      "id": 1,
+      "idJugador": 2,
+      "codigo": "HAL",
+      "nombres": "Halland",
+      "camiseta": 9,
+      "campeonatos": 10,
+      "idEquipo": 4,
+      "codigoEquipo": "BM",
+      "nombreEquipo": "Bayern munich"
+    },
+    {
+      "id": 2,
+      "idJugador": 8,
+      "codigo": "SC",
+      "nombres": "Sherman cardenas",
+      "camiseta": 10,
+      "campeonatos": 0,
+      "idEquipo": 9,
+      "codigoEquipo": "AB",
+      "nombreEquipo": "Atletico Bucaramanga"
+    },
+    {
+      "id": 3,
+      "idJugador": 9,
+      "codigo": "CR",
+      "nombres": "Cristiano Ronaldo",
+      "camiseta": 7,
+      "campeonatos": "0",
+      "idEquipo": 5,
+      "codigoEquipo": "RV",
+      "nombreEquipo": "River plate"
+    },
+    {
+      "id": 4,
+      "idJugador": 13,
+      "codigo": "HZ",
+      "nombres": "Eden Hazard",
+      "camiseta": 7,
+      "campeonatos": 0,
+      "idEquipo": 8,
+      "codigoEquipo": "BC",
+      "nombreEquipo": "Barcelona"
+    },
+    {
+      "id": 5,
+      "idJugador": 14,
+      "codigo": "FJ",
+      "nombres": "Frenkie de Jong",
+      "camiseta": 11,
+      "campeonatos": "2",
+      "idEquipo": 8,
+      "codigoEquipo": "BC",
+      "nombreEquipo": "Barcelona"
+    },
+    {
+      "id": 6,
+      "idJugador": 18,
+      "codigo": "KL",
+      "nombres": "Koulibali",
+      "camiseta": 11,
+      "campeonatos": "2",
+      "idEquipo": 9,
+      "codigoEquipo": "AB",
+      "nombreEquipo": "Atletico Bucaramanga"
+    },
+    {
+      "id": 7,
+      "idJugador": 22,
+      "codigo": "asgasg",
+      "nombres": "lsgasg",
+      "camiseta": "sa",
+      "campeonatos": null,
+      "idEquipo": 3,
+      "codigoEquipo": "AC",
+      "nombreEquipo": "America de cali"
+    },
+    {
+      "id": 8,
+      "idJugador": 23,
+      "codigo": "gasgas",
+      "nombres": "asgasg",
+      "camiseta": "as",
+      "campeonatos": null,
+      "idEquipo": 3,
+      "codigoEquipo": "AC",
+      "nombreEquipo": "America de cali"
+    },
+    {
+      "id": 9,
+      "idJugador": 24,
+      "codigo": "JR",
+      "nombres": "Juan Rodriguez",
+      "camiseta": 10,
+      "campeonatos": null,
+      "idEquipo": 3,
+      "codigoEquipo": "AC",
+      "nombreEquipo": "America de cali"
+    },
+    {
+      "id": 10,
+      "idJugador": 29,
+      "codigo": "DR",
+      "nombres": "Duvan Requena",
+      "camiseta": 10,
+      "campeonatos": null,
+      "idEquipo": 1,
+      "codigoEquipo": "MC",
+      "nombreEquipo": "Manchester city"
+    },
+    {
+      "id": 11,
+      "idJugador": 34,
+      "codigo": "A",
+      "nombres": "A",
+      "camiseta": "A",
+      "campeonatos": null,
+      "idEquipo": 3,
+      "codigoEquipo": "AC",
+      "nombreEquipo": "America de cali"
+    },
+    {
+      "id": 12,
+      "idJugador": 35,
+      "codigo": "ASD123",
+      "nombres": "abc321",
+      "camiseta": 1,
+      "campeonatos": 1,
+      "idEquipo": 9,
+      "codigoEquipo": "AB",
+      "nombreEquipo": "Atletico Bucaramanga"
+    },
+    {
+      "id": 13,
+      "idJugador": 37,
+      "codigo": "ASD3213",
+      "nombres": "asd",
+      "camiseta": 2,
+      "campeonatos": 2,
+      "idEquipo": 9,
+      "codigoEquipo": "AB",
+      "nombreEquipo": "Atletico Bucaramanga"
+    },
+    {
+      "id": 14,
+      "idJugador": 39,
+      "codigo": "UGT11",
+      "nombres": "Uriel González",
+      "camiseta": 11,
+      "campeonatos": null,
+      "idEquipo": 9,
+      "codigoEquipo": "AB",
+      "nombreEquipo": "Atletico Bucaramanga"
+    },
+    {
+      "camiseta": "7",
+      "campeonatos": "7",
+      "codigo": "7",
+      "codigoEquipo": "7",
+      "idEquipo": "7",
+      "idJugador": "5",
+      "nombreEquipo": "Real Madrid",
+      "nombres": "Andrea YB",
+      "id": 15
+    }
+  ]
+}

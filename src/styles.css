@@ -1,0 +1,43 @@
+body{
+  margin: 0px;
+  padding: 0px;
+  color: #323232;
+}
+
+.dis-n{
+  display: none;
+}
+.dis-b{
+  display: block;
+}
+.row-g-5{
+  row-gap: 5%;
+}
+
+.dis-g{
+  display: grid;
+}
+.dis-f{
+  display: flex;
+}
+.bor-col-b{
+  border: 1px solid #323232;
+}
+.content{
+  width: 90%;
+  margin: auto;
+}
+button{
+  cursor: pointer;
+}
+
+@media only screen and (min-width: 800px) {
+  .dis-g-70-30{
+    display: grid;
+    grid-template-columns: 70% auto;
+    column-gap: 5%;
+  }
+}
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
